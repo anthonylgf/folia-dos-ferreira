@@ -44,6 +44,8 @@ docs:
         url: /tabelas/tabela-chegada-giro
       - title: "Tabela do Morador(Santa Isabel)"
         url: /tabelas/tabela-morador-santa-isabel
+      - title: "Tabela do Morador"
+        url: /tabelas/tabela-morador
   - title: "Contribuir"
     children:
       - title: "Como contribuir para o projeto"
