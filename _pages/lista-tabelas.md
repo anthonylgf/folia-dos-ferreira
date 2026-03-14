@@ -13,11 +13,11 @@ Segue abaixo a lista de tabelas utilizadas por nossa folia. Essa lista está em 
 
 
 Tabelas:
-  - [Tabela do Cemitério](/tabelas/tabela-cemiterio)
-  - [Tabela da Entrega da Folia](/tabelas/tabela-entrega-folia)
-  - [Tabela de Saudação ao Padroeiro](/tabelas/tabela-padroeiro)
-  - [Tabela para Promessas](/tabelas/tabela-promessas)
-  - [Tabela Lapinha](/tabelas/tabela-lapinha)
-  - [Tabela da Chegada do Giro](/tabelas/tabela-chegada-giro)
-  - [Tabela Morador (Santa Isabel)](/tabelas/tabela-morador-santa-isabel)
-  -  [Tabela Morador](/tabelas/tabela-morador-santa-isabel)
+  - [Tabela do Cemitério]({{ '/tabelas/tabela-cemiterio' | relative_url }})
+  - [Tabela da Entrega da Folia]({{ '/tabelas/tabela-entrega-folia' | relative_url }})
+  - [Tabela de Saudação ao Padroeiro]({{ '/tabelas/tabela-padroeiro' | relative_url }})
+  - [Tabela para Promessas]({{ '/tabelas/tabela-promessas' | relative_url }})
+  - [Tabela Lapinha]({{ '/tabelas/tabela-lapinha' | relative_url }})
+  - [Tabela da Chegada do Giro]({{ '/tabelas/tabela-chegada-giro' | relative_url }})
+  - [Tabela Morador (Santa Isabel)]({{ '/tabelas/tabela-morador-santa-isabel' | relative_url }})
+  - [Tabela Morador]({{ '/tabelas/tabela-morador' | relative_url }})
