@@ -1,0 +1,47 @@
+<svg width="100%" viewBox="0 0 360 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#051c5f"/>
+      <stop offset="100%" stop-color="#254ba0"/>
+    </linearGradient>
+    <linearGradient id="sg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffe066" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="360" height="40" rx="6" fill="url(#bg2)"/>
+
+  <!-- Subtle stars -->
+  <circle cx="15"  cy="8"  r="0.8" fill="#fff" opacity="0.6"/>
+  <circle cx="55"  cy="5"  r="0.6" fill="#fff" opacity="0.5"/>
+  <circle cx="100" cy="10" r="0.7" fill="#fff" opacity="0.4"/>
+  <circle cx="230" cy="6"  r="0.6" fill="#fff" opacity="0.5"/>
+  <circle cx="290" cy="9"  r="0.8" fill="#fff" opacity="0.6"/>
+  <circle cx="345" cy="5"  r="0.6" fill="#fff" opacity="0.4"/>
+
+  <!-- Shooting star tail -->
+  <line x1="18" y1="22" x2="34" y2="16" stroke="#fff" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- 4-point star icon -->
+  <g transform="translate(14,20)">
+    <polygon points="0,-6 1.5,-1.5 6,0 1.5,1.5 0,6 -1.5,1.5 -6,0 -1.5,-1.5" fill="url(#sg2)"/>
+    <circle cx="0" cy="0" r="1.8" fill="#ffffff"/>
+  </g>
+
+  <!-- Thin divider -->
+  <line x1="28" y1="8" x2="28" y2="32" stroke="#ffffff" stroke-width="0.6" opacity="0.3"/>
+
+  <!-- FOLIA DE REIS text -->
+  <text x="36" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#ffffff" letter-spacing="3">FOLIA DE REIS</text>
+
+  <!-- Tagline -->
+  <text x="37" y="28" font-family="Georgia, 'Times New Roman', serif" font-size="5.5" font-weight="400" fill="#adc8f5" letter-spacing="2" opacity="0.85">FAMILIA FERREIRA</text>
+
+  <!-- Small dune hint -->
+  <path d="M0 32 Q90 26 180 32 Q270 38 360 28 L360 40 L0 40Z" fill="#c8932a" opacity="0.15"/>
+
+  <!-- Right star accent -->
+  <polygon points="340,14 341.5,10 343,14 347,12.5 344,15 345.5,19 341.5,16.5 337.5,19 339,15 336,12.5" fill="#ffe066" opacity="0.65"/>
+</svg>

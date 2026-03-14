@@ -1,9 +1,50 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Página Inicial"
+    url: /
+  - title: "Linha do Tempo"
+    url: /linha-do-tempo
+  - title: "Tabelas"
+    url: /lista-tabelas
+  - title: "Contribuir"
+    url: /como-contribuir
+
+
+docs:
+  - title: "Linha do Tempo de Imperadores"
+    url: /linha-do-tempo
+    children:
+      - title: "Década de 60"
+        url: /linha-do-tempo#década-de-60
+      - title: "Década de 70"
+        url: /linha-do-tempo#década-de-70
+      - title: "Década de 80"
+        url: /linha-do-tempo#década-de-80
+      - title: "Década de 90"
+        url: /linha-do-tempo#década-de-90
+      - title: "Década de 2000"
+        url: /linha-do-tempo#década-de-2000
+      - title: "Década de 2010"
+        url: /linha-do-tempo#década-de-2010
+      - title: "Década de 2020"
+        url: /linha-do-tempo#década-de-2020
+  - title: "Tabelas"
+    url: /lista-tabelas
+    children:
+      - title: "Tabela do Cemitério"
+        url: /tabelas/tabela-cemiterio
+      - title: "Tabela da Entrega da Folia"
+        url: /tabelas/tabela-entrega-folia
+      - title: "Tabela de Saudação ao Padroeiro"
+        url: /tabelas/tabela-padroeiro
+      - title: "Tabela para Promessas"
+        url: /tabelas/tabela-promessas
+      - title: "Tabela Lapinha"
+        url: /tabelas/tabela-lapinha
+      - title: "Tabela da Chegada do Giro"
+        url: /tabelas/tabela-chegada-giro
+      - title: "Tabela do Morador(Santa Isabel)"
+        url: /tabelas/tabela-morador-santa-isabel
+  - title: "Contribuir"
+    children:
+      - title: "Como contribuir para o projeto"
+        url: /como-contribuir
