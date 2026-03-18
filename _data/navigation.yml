@@ -46,6 +46,8 @@ docs:
         url: /tabelas/tabela-morador-santa-isabel
       - title: "Tabela do Morador"
         url: /tabelas/tabela-morador
+      - title: "Versos - Saudar Moradores"
+        url: /tabelas/versos-tabela-morador
   - title: "Contribuir"
     children:
       - title: "Como contribuir para o projeto"
