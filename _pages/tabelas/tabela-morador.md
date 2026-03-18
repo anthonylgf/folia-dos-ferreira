@@ -2,7 +2,7 @@
 title: "Tabela para Saudar o Morador"
 permalink: /tabelas/tabela-morador
 excerpt: "Tabela de Reis para saudar o morador"
-last_modified_at: 2026-03-14T14:59:22-03:00
+last_modified_at: 2026-03-18T14:00:22-03:00
 author_profile: false
 sidebar:
   title: "Conteúdos"
