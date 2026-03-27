@@ -4,7 +4,7 @@ Site dedicado a preservar a historia e as tradicoes da Folia de Reis da familia 
 
 O site apresenta a linha do tempo dos imperadores da folia, as tabelas (canticos cerimoniais) utilizadas durante os festejos, e links para as redes sociais da comunidade.
 
-**Acesse o site:** [https://folia-dos-ferreira.github.io](https://folia-dos-ferreira.github.io)
+**Acesse o site:** [https://foliadereisdosferreiras.com.br](https://foliadereisdosferreiras.com.br)
 
 ---
 
@@ -101,15 +101,7 @@ folia-dos-ferreira/
 │   ├── contribuir.md        # Como contribuir com o projeto
 │   ├── linha-do-tempo.md    # Linha do tempo dos imperadores
 │   ├── lista-tabelas.md     # Indice das tabelas cerimoniais
-│   └── tabelas/             # Tabelas (canticos) da folia
-│       ├── tabela-cemiterio.md
-│       ├── tabela-chegada-giro.md
-│       ├── tabela-entrega-folia.md
-│       ├── tabela-lapinha.md
-│       ├── tabela-morador.md
-│       ├── tabela-morador-santa-isabel.md
-│       ├── tabela-padroeiro.md
-│       └── tabela-promessa.md
+│   └── tabelas/             # Tabelas (canticos) e versos utilizados na folia
 ├── assets/
 │   └── images/              # Imagens e logos do site
 ├── index.html               # Pagina inicial (layout splash)
@@ -123,6 +115,6 @@ folia-dos-ferreira/
 
 O deploy e realizado automaticamente pelo **GitHub Pages**. Ao fazer push na branch principal do repositorio, o GitHub Pages compila o site com Jekyll e publica em:
 
-**https://folia-dos-ferreira.github.io**
+**https://foliadereisdosferreiras.com.br**
 
 Nenhuma configuracao adicional de CI/CD e necessaria.
