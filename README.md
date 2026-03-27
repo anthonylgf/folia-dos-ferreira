@@ -4,7 +4,7 @@ Site dedicado a preservar a historia e as tradicoes da Folia de Reis da familia 
 
 O site apresenta a linha do tempo dos imperadores da folia, as tabelas (canticos cerimoniais) utilizadas durante os festejos, e links para as redes sociais da comunidade.
 
-**Acesse o site:** [https://folia-dos-ferreira.github.io](https://folia-dos-ferreira.github.io)
+**Acesse o site:** [https://foliadereisdosferreiras.com.br](https://foliadereisdosferreiras.com.br)
 
 ---
 
@@ -56,6 +56,7 @@ As dependencias estao definidas no `Gemfile`:
 - **jekyll-sitemap** - Geracao automatica de sitemap
 - **jekyll-gist** - Incorporacao de GitHub Gists
 - **jekyll-feed** - Geracao de feed RSS
+- **jekyll-seo-tag** - Geracao de meta tags SEO e dados estruturados
 - **jemoji** - Suporte a emojis
 - **jekyll-include-cache** - Otimizacao de performance
 - **jekyll-algolia** - Integracao com busca Algolia
@@ -96,26 +97,35 @@ folia-dos-ferreira/
 ├── _config.yml              # Configuracao principal do site
 ├── _data/
 │   └── navigation.yml       # Estrutura de navegacao (menus)
+├── _includes/
+│   └── head/
+│       └── custom.html      # Extensoes do HEAD (JSON-LD, meta tags SEO)
 ├── _pages/
-│   ├── 404.md               # Pagina de erro 404
+│   ├── 404.md               # Pagina de erro 404 (caso o usuário acesse um caminho que não existe)
 │   ├── contribuir.md        # Como contribuir com o projeto
 │   ├── linha-do-tempo.md    # Linha do tempo dos imperadores
 │   ├── lista-tabelas.md     # Indice das tabelas cerimoniais
-│   └── tabelas/             # Tabelas (canticos) da folia
-│       ├── tabela-cemiterio.md
-│       ├── tabela-chegada-giro.md
-│       ├── tabela-entrega-folia.md
-│       ├── tabela-lapinha.md
-│       ├── tabela-morador.md
-│       ├── tabela-morador-santa-isabel.md
-│       ├── tabela-padroeiro.md
-│       └── tabela-promessa.md
+│   └── tabelas/             # Tabelas (canticos) e versos utilizados na folia
 ├── assets/
 │   └── images/              # Imagens e logos do site
-├── index.html               # Pagina inicial (layout splash)
+├── index.html               # Pagina inicial
+├── robots.txt               # Configuracao para crawlers (sitemap)
+├── CNAME                    # Dominio customizado para GitHub Pages
 ├── Gemfile                  # Dependencias Ruby
-└── README.md                # Este arquivo
 ```
+
+---
+
+## SEO e Dados Estruturados
+
+O site possui otimizacoes para melhorar a descoberta nos mecanismos de busca:
+
+- **`_includes/head/custom.html`** - Adiciona dados estruturados JSON-LD (Schema.org) com informacoes sobre a organizacao, o site (WebSite) e redes sociais
+- **`robots.txt`** - Arquivo que permite indexacao completa e aponta crawlers para o sitemap
+- **Meta tags otimizadas** - Descricoes e titulos ricos em palavras-chave relevantes (folia de reis, terno de reis, Januaria, MG)
+- **`jekyll-seo-tag`** - Plugin que gera automaticamente meta tags Open Graph (og:title, og:description, og:image) para compartilhamento em redes sociais
+
+O Jekyll com `jekyll-sitemap` gera automaticamente o arquivo `sitemap.xml` que facilita a indexacao de todas as paginas pelo Google e outros buscadores.
 
 ---
 
@@ -123,6 +133,6 @@ folia-dos-ferreira/
 
 O deploy e realizado automaticamente pelo **GitHub Pages**. Ao fazer push na branch principal do repositorio, o GitHub Pages compila o site com Jekyll e publica em:
 
-**https://folia-dos-ferreira.github.io**
+**https://foliadereisdosferreiras.com.br**
 
 Nenhuma configuracao adicional de CI/CD e necessaria.

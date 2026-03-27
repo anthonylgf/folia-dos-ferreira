@@ -1,7 +1,7 @@
 ---
 title: "Como contribuir para o projeto"
 permalink: /como-contribuir
-excerpt: "Informações sobre como contribuir para o projeto"
+excerpt: "Saiba como contribuir para preservar a história e os cantos da Folia de Reis da Família Ferreira de Januária, MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:
