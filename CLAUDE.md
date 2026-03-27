@@ -44,7 +44,7 @@ bundle exec jekyll clean
   - `tabelas/` — Páginas de tabelas com cantos/versos (tabela-*.md)
   - `linha-do-tempo.md` — Linha do tempo dos imperadores organizada por década
   - `lista-tabelas.md` — Página de índice listando todas as tabelas
-  - `contrubuir.md` - Página com instruções sobre como contribuir para o projeto
+  - `contribuir.md` - Página com instruções sobre como contribuir para o projeto
 - `_data/navigation.yml` — Define todos os menus de navegação (menu principal + estrutura de sidebar com seções por década)
 - `_config.yml` — Configuração do Jekyll incluindo tema, plugins, URL base (`/folia-dos-ferreira`) e metadados do autor/redes sociais
 - `CNAME` - Arquivo necessário para configurar os domínios customizados no Github Pages
