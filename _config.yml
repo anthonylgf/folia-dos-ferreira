@@ -1,14 +1,16 @@
-title: Folia dos Ferreira
+title: Folia de Reis dos Ferreira
 locale: pt-BR
 domain: foliadereisdosferreiras.com.br
 url: https://foliadereisdosferreiras.com.br
 baseurl: ""
 logo: /assets/images/logo-folia-topo-site.svg
+og_image: /assets/images/logo-folia.png
 email: anthony.physis@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Site com pequenas informações sobre o terno de Reis da Família Ferreira,
-  localizada no distrito de São Joaquim, na cidade de Januária, Minas Gerais.
-twitter_username: username
+tagline: "Terno de Reis da Família Ferreira - Januária, MG | Desde 1952"
+description: >-
+  Folia de Reis da Família Ferreira, tradição desde 1952 no distrito de São Joaquim,
+  Januária, Minas Gerais. Conheça a história, os imperadores, cantos e tabelas
+  do nosso terno de Reis.
 github_username: anthonylgf
 minimal_mistakes_skin: neon
 search: true
@@ -43,13 +45,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
 
 author:
   name   : "Folia dos Ferreira"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Terno de Folia de Reis da Família Ferreira, tradição desde 1952 em São Joaquim, Januária - MG."
   links:
     - label: "Youtube"
       icon: "fa-brands fa-square-youtube"

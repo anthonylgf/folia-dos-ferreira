@@ -56,6 +56,7 @@ As dependencias estao definidas no `Gemfile`:
 - **jekyll-sitemap** - Geracao automatica de sitemap
 - **jekyll-gist** - Incorporacao de GitHub Gists
 - **jekyll-feed** - Geracao de feed RSS
+- **jekyll-seo-tag** - Geracao de meta tags SEO e dados estruturados
 - **jemoji** - Suporte a emojis
 - **jekyll-include-cache** - Otimizacao de performance
 - **jekyll-algolia** - Integracao com busca Algolia
@@ -96,18 +97,35 @@ folia-dos-ferreira/
 ├── _config.yml              # Configuracao principal do site
 ├── _data/
 │   └── navigation.yml       # Estrutura de navegacao (menus)
+├── _includes/
+│   └── head/
+│       └── custom.html      # Extensoes do HEAD (JSON-LD, meta tags SEO)
 ├── _pages/
-│   ├── 404.md               # Pagina de erro 404
+│   ├── 404.md               # Pagina de erro 404 (caso o usuário acesse um caminho que não existe)
 │   ├── contribuir.md        # Como contribuir com o projeto
 │   ├── linha-do-tempo.md    # Linha do tempo dos imperadores
 │   ├── lista-tabelas.md     # Indice das tabelas cerimoniais
 │   └── tabelas/             # Tabelas (canticos) e versos utilizados na folia
 ├── assets/
 │   └── images/              # Imagens e logos do site
-├── index.html               # Pagina inicial (layout splash)
+├── index.html               # Pagina inicial
+├── robots.txt               # Configuracao para crawlers (sitemap)
+├── CNAME                    # Dominio customizado para GitHub Pages
 ├── Gemfile                  # Dependencias Ruby
-└── README.md                # Este arquivo
 ```
+
+---
+
+## SEO e Dados Estruturados
+
+O site possui otimizacoes para melhorar a descoberta nos mecanismos de busca:
+
+- **`_includes/head/custom.html`** - Adiciona dados estruturados JSON-LD (Schema.org) com informacoes sobre a organizacao, rede social, e funcionalidade de busca
+- **`robots.txt`** - Arquivo que permite indexacao completa e aponta crawlers para o sitemap
+- **Meta tags otimizadas** - Descricoes e titulos ricos em palavras-chave relevantes (folia de reis, terno de reis, Januaria, MG)
+- **`jekyll-seo-tag`** - Plugin que gera automaticamente meta tags Open Graph (og:title, og:description, og:image) para compartilhamento em redes sociais
+
+O Jekyll com `jekyll-sitemap` gera automaticamente o arquivo `sitemap.xml` que facilita a indexacao de todas as paginas pelo Google e outros buscadores.
 
 ---
 

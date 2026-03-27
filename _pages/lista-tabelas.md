@@ -1,7 +1,7 @@
 ---
 title: "Lista de Tabelas"
 permalink: /lista-tabelas
-excerpt: "Lista com as tabelas utilizadas pela folia"
+excerpt: "Tabelas e cantos da Folia de Reis dos Ferreira - letras e versos tradicionais do terno de Reis dos Ferreiras, de Januária, Minas Gerais - MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:

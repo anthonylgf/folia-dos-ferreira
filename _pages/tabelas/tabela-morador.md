@@ -1,7 +1,7 @@
 ---
 title: "Tabela para Saudar o Morador"
 permalink: /tabelas/tabela-morador
-excerpt: "Tabela de Reis para saudar o morador"
+excerpt: "Canto de Folia de Reis para saudar o morador - versos e letra da tabela para saudar os moradores do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-03-18T14:00:22-03:00
 author_profile: false
 sidebar:

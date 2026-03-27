@@ -1,7 +1,7 @@
 ---
 title: "Versos - Saudar Moradores"
 permalink: /tabelas/versos-tabela-morador
-excerpt: "Versos para serem utilizados nas tabelas de saudação aos moradores"
+excerpt: "Versos tradicionais de Folia de Reis para saudação aos moradores - letras do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-03-18T13:59:22-03:00
 author_profile: false
 sidebar:

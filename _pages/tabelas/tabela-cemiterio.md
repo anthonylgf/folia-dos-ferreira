@@ -1,7 +1,7 @@
 ---
 title: "Tabela do Cemitério"
 permalink: /tabelas/tabela-cemiterio
-excerpt: "Tabela de Reis para ser cantada nos cemitérios"
+excerpt: "Canto de Folia de Reis para cemitérios - versos e letra da tabela de cemitério do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:

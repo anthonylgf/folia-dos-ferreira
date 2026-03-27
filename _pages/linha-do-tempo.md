@@ -1,7 +1,7 @@
 ---
 title: "Linha do Tempo"
 permalink: /linha-do-tempo
-excerpt: "Linha do tempo de todos os Imperadores do nosso terno de Reis, divididos por décadas e anos"
+excerpt: "História dos Imperadores da Folia de Reis dos Ferreira desde 1968 - linha do tempo completa do terno de Reis de Januária, MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:

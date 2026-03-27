@@ -1,7 +1,7 @@
 ---
 title: "Tabela para Promessas"
 permalink: /tabelas/tabela-promessas
-excerpt: "Tabela de Reis para ser cantada nas promessas"
+excerpt: "Canto de Folia de Reis para promessas - versos e letra da tabela para cantar nas promessas do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:

@@ -1,7 +1,7 @@
 ---
 title: "Tabela da Chegada do Giro"
 permalink: /tabelas/tabela-chegada-giro
-excerpt: "Tabela de Reis para ser cantada na chegada do giro"
+excerpt: "Canto de Folia de Reis para chegada do giro - versos e letra da tabela da chegada do giro do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:

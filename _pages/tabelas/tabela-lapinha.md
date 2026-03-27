@@ -1,7 +1,7 @@
 ---
 title: "Tabela Lapinha"
 permalink: /tabelas/tabela-lapinha
-excerpt: "Tabela de Reis para saudar a lapinha. Deve ser cantada nas casas que possuem lapinha"
+excerpt: "Canto de Folia de Reis para saudar a lapinha - versos e letra da tabela para a lapinha do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:

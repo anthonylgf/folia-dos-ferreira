@@ -1,7 +1,7 @@
 ---
 title: "Tabela da Entrega da Folia"
 permalink: /tabelas/tabela-entrega-folia
-excerpt: "Tabela de Reis para ser cantada na entrega da folia"
+excerpt: "Canto de Folia de Reis para entrega da folia - versos e letra da tabela de entrega da folia do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-03-14T14:59:22-03:00
 author_profile: false
 sidebar:
