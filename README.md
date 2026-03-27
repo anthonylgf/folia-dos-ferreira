@@ -120,7 +120,7 @@ folia-dos-ferreira/
 
 O site possui otimizacoes para melhorar a descoberta nos mecanismos de busca:
 
-- **`_includes/head/custom.html`** - Adiciona dados estruturados JSON-LD (Schema.org) com informacoes sobre a organizacao, rede social, e funcionalidade de busca
+- **`_includes/head/custom.html`** - Adiciona dados estruturados JSON-LD (Schema.org) com informacoes sobre a organizacao, o site (WebSite) e redes sociais
 - **`robots.txt`** - Arquivo que permite indexacao completa e aponta crawlers para o sitemap
 - **Meta tags otimizadas** - Descricoes e titulos ricos em palavras-chave relevantes (folia de reis, terno de reis, Januaria, MG)
 - **`jekyll-seo-tag`** - Plugin que gera automaticamente meta tags Open Graph (og:title, og:description, og:image) para compartilhamento em redes sociais
