@@ -18,9 +18,9 @@ jobs:
           bundler-cache: true
 
       - name: Validar arquivos YAML
-        run: |
-          gem install yaml-lint --quiet
-          yaml-lint _config.yml _data/navigation.yml
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: _config.yml _data/navigation.yml
 
       - name: Validar arquivos Markdown
         uses: DavidAnson/markdownlint-cli2-action@v18
