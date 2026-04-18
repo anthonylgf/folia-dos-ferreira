@@ -13,7 +13,7 @@ Esse projeto é de código aberto, então caso queria contribuir, pode seguir os
 
 ## Sugestões
 
-Caso tenha alguma sugestão de melhoria ou correção de algum problema, fique a vontade para enviar uma mensagem para o seguinte email: **anthony.physis@gmail.com**
+Caso tenha alguma sugestão de melhoria ou correção de algum problema, fique a vontade para enviar uma mensagem para o seguinte email: **foliadereisdosferreiras@gmail.com**
 
 ## Contribuir com código
 
