@@ -17,12 +17,6 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Verificar vulnerabilidades nas dependências
-        run: |
-          gem install bundler-audit --quiet
-          bundle-audit update
-          bundle-audit check
-
       - name: Validar arquivos YAML
         run: |
           gem install yaml-lint --quiet
@@ -37,3 +31,23 @@ jobs:
 
       - name: Compilar Jekyll (modo estrito)
         run: bundle exec jekyll build --strict_front_matter
+
+  auditoria-dependencias:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Atualizar base de dados de vulnerabilidades
+        run: |
+          gem install bundler-audit --quiet
+          bundle-audit update
+
+      - name: Verificar CVEs nas dependências
+        run: bundle-audit check
