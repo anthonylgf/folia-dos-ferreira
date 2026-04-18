@@ -77,7 +77,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-O site estará disponível em: **http://localhost:4000/**
+O site estará disponível em: **[http://localhost:4000/](http://localhost:4000/)**
 
 ### Comandos úteis
 
@@ -92,7 +92,7 @@ O site estará disponível em: **http://localhost:4000/**
 
 ## Estrutura do projeto
 
-```
+```text
 folia-dos-ferreira/
 ├── _config.yml              # Configuração principal do site
 ├── _data/
@@ -133,6 +133,6 @@ O Jekyll com `jekyll-sitemap` gera automaticamente o arquivo `sitemap.xml` que f
 
 O deploy é realizado automaticamente via **GitHub Actions**. Ao fazer push na branch `master`, o workflow `.github/workflows/deploy-site-jekyll.yml` dispara o build com Jekyll e publica o site no **GitHub Pages** em:
 
-**https://foliadereisdosferreiras.com.br**
+**[https://foliadereisdosferreiras.com.br](https://foliadereisdosferreiras.com.br)**
 
 Nenhuma configuração adicional é necessária.

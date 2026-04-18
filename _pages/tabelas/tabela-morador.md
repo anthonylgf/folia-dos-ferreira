@@ -42,18 +42,19 @@ Para o santíssimo sacramento
 >Alevante e fique em pé.  
 >Venha receber seu posto,  
 >De tenente Coronel.  
-
+>
 >E também o senhor **NOME MORADOR**  
 >Saia fora no salão.  
 >Venha receber seu posto,  
 >De tenente Capitão.  
 
 ***Mulheres***
+
 >E também a senhora **NOME MORADORA**  
 >É uma flores de rosa  
 >Quanto mais velha ela fica  
 >Mais bonita e mais formosa.  
-
+>
 >E também a senhora **NOME MORADORA**  
 >É a rama da Melancia,  
 >Que parece uma estrela D'alva  
