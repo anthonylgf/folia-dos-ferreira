@@ -13,7 +13,7 @@ Vai chegando meus foliões,
 Com os seus nobres cavalheiros.  
 Vem trazendo os três Reis Magos,  
 Retratado na Bandeira.  
-Para saudar o Cemitério,  
+Pra saudar o Cemitério,  
 Com seu Santo Cruzeiro.  
 
 Deus vos salve o Cemitério,  
@@ -23,31 +23,31 @@ Devoto do Bom Jesus.
 
 Reunimos meus foliões,  
 Devoto da Virgem Pura.  
-Para saudar o cemitério,  
+Pra saudar o cemitério,  
 E também a Sepultura.  
 
 Deus vos salve o Cemitério,  
 Deus vos salve a sepultura.  
 Deus vos salve todos mortos,  
-Devoto da Virgem Pura.  
+Devotos da Virgem Pura.  
 
-A sepultura é de quem morre,  
-É uma terra Sagrada.  
-É onde todos mortos,  
+A sepultura de quem morre,  
+É um terreno Sagrado.  
+É aonde todos mortos,  
 Desejam ser enterrados.  
 
 Deus vos salve a Sepultura,  
-Feito nesta terra Benta.  
+Feita nesta terra Benta.  
 Deus vos salve todos Mortos,  
 E os anjos inocentes.  
 
 Reunimos meus companheiros,  
-Vamos dar a sudação.  
-Fazei uma rogativa,  
+Vamos dar a saudação.  
+E fazei uma rogativa,  
 Contrito no coração.  
-Pedimos a todos mortos,  
+E pedimos a todos mortos,  
 Que Deus dê a Salvação.  
 Já saudamos o cemitério,  
-Todos mortos e Santa Cruz.  
-É Deus mesmo que nos Guarda,  
+Todos mortos e a Santa Cruz.  
+É Deus mesmo quegit  nos Guarda,  
 Para sempre Amém Jesus.  
