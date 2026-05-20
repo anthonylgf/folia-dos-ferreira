@@ -5,6 +5,9 @@ gem "github-pages", group: :jekyll_plugins
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Versão mínima segura para CVE-2026-33210 (format string injection)
+gem "json", ">= 2.19.2"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
@@ -13,4 +16,8 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
+end
+
+group :development, :test do
+  gem "bundler-audit"
 end

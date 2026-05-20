@@ -1,0 +1,53 @@
+name: Validacao & Linter
+
+on:
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  test-and-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Validar arquivos YAML
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: _config.yml _data/navigation.yml
+
+      - name: Validar arquivos Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          globs: |
+            _pages/**/*.md
+            README.md
+
+      - name: Compilar Jekyll (modo estrito)
+        run: bundle exec jekyll build --strict_front_matter
+
+  auditoria-dependencias:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Atualizar base de dados de vulnerabilidades
+        run: |
+          gem install bundler-audit --quiet
+          bundle-audit update
+
+      - name: Verificar CVEs nas dependências
+        run: bundle-audit check

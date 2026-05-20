@@ -1,0 +1,25 @@
+default: true
+
+# Permite múltiplos títulos com o mesmo conteúdo (comum nas páginas de tabelas)
+MD024: false
+
+# Permite pontuação no final dos títulos (ex: títulos com acentuação)
+MD026: false
+
+# Desativa o limite de comprimento de linha — o conteúdo tem versos longos
+MD013: false
+
+# Permite HTML puro (usado nos includes e saídas do Jekyll)
+MD033: false
+
+# Permite itens duplicados em listas
+MD029: false
+
+# Exige linhas em branco ao redor dos títulos
+MD022: true
+
+# Exige linhas em branco ao redor das listas
+MD032: true
+
+# Exige linhas em branco ao redor dos blocos de código
+MD031: true
