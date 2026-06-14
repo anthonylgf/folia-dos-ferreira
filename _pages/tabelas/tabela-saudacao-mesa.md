@@ -1,7 +1,7 @@
 ---
 title: "Tabela de Saudação a Mesa"
 permalink: /tabelas/tabela-saudacao-mesa
-excerpt: "Canto de Folia de Reis para saudar a mesa - versos e letra da tabela para a saudar a mesa do terno de Reis dos Ferreira, Januária, MG"
+excerpt: "Canto de Folia de Reis para saudar a mesa - versos e letra da tabela para saudar a mesa do terno de Reis dos Ferreira, Januária, MG"
 last_modified_at: 2026-06-14T13:29:22-03:00
 author_profile: false
 sidebar:
