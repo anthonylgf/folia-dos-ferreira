@@ -42,6 +42,10 @@ docs:
         url: /tabelas/tabela-lapinha
       - title: "Tabela da Chegada do Giro"
         url: /tabelas/tabela-chegada-giro
+      - title: "Tabela de Saudação a Mesa"
+        url: /tabelas/tabela-saudacao-mesa
+      - title: "Tabela da Alvorada"
+        url: /tabelas/tabela-alvorada
       - title: "Tabela do Morador(Santa Isabel)"
         url: /tabelas/tabela-morador-santa-isabel
       - title: "Tabela do Morador"

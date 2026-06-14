@@ -21,9 +21,16 @@ O site apresenta a linha do tempo dos imperadores da folia, as tabelas (cântico
 
 ## Pré-requisitos
 
-Antes de executar o projeto localmente, certifique-se de ter instalado:
+Você pode executar o projeto de duas formas: **com Docker** (recomendado, sem precisar instalar Ruby) ou **localmente** com Ruby instalado na máquina.
 
-- **Ruby** (versão compatível com a gem `github-pages`)
+### Opção 1 — Docker (recomendado)
+
+- **Docker** e **Docker Compose** ([instalação](https://docs.docker.com/get-docker/))
+- **Git**
+
+### Opção 2 — Ambiente local
+
+- **Ruby 3.2** (mesma versão usada no pipeline de deploy)
 - **Bundler** (gerenciador de dependências Ruby)
 - **Git**
 
@@ -64,6 +71,27 @@ As dependências estão definidas no `Gemfile`:
 ---
 
 ## Como executar localmente
+
+### Com Docker (recomendado)
+
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/anthonylgf/folia-dos-ferreira.git
+cd folia-dos-ferreira
+
+# 2. Subir o ambiente (a primeira execução fará o build da imagem)
+docker compose up
+
+# Para rodar em segundo plano
+docker compose up -d
+
+# Para parar
+docker compose down
+```
+
+O site estará disponível em: **http://localhost:4000/** com live reload habilitado (alterações em arquivos são refletidas automaticamente).
+
+### Com Ruby instalado na máquina
 
 ```bash
 # 1. Clonar o repositório

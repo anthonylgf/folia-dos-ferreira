@@ -1,0 +1,22 @@
+services:
+  website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: folia-dos-ferreira:dev
+    container_name: folia-dos-ferreira
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+      - jekyll_cache:/srv/jekyll/.jekyll-cache
+    environment:
+      JEKYLL_ENV: development
+    stdin_open: true
+    tty: true
+
+volumes:
+  bundle_cache:
+  jekyll_cache:
