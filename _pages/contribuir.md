@@ -26,11 +26,8 @@ Caso queria deixar uma sugestão, ao invés de abrir o código, pode utilizar a 
 ## Como contribuir financeiramente
 Caso deseje realizar alguma contribuição financeira para o nosso terno de folia, envie uma mensagem para o email **foliadereisdosferreiras@gmail.com** com o seguinte formato, que entraremos em contato com as instruções necessárias:
 
-```
-Olá, me chamo XXX
-
-Gostaria de enviar uma contribuição para a folia dos Ferreira.
-
-Contato: (99) 999999999
-
-```
+>Olá, me chamo XXX
+>
+>Gostaria de enviar uma contribuição para a folia dos Ferreira.
+>
+>Contato: (99) 999999999
