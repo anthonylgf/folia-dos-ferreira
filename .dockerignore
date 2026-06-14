@@ -18,8 +18,5 @@ vendor/bundle
 .claude
 CLAUDE.md
 
-Dockerfile
-docker-compose.yml
-.dockerignore
 
 README.md
