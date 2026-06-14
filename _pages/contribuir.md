@@ -9,14 +9,12 @@ sidebar:
   nav: docs
 ---
 
-## Como contribuir para o site
-## Sugestões de mudanças no site
-Esse projeto é de código aberto, então caso queria contribuir, pode seguir os passos abaixo.
+Para contribuir para o site ou para nosso terno de folia, siga os passos abaixo.
 
-### Enviar sugestões
+## Enviar sugestões sobre o site
 Caso tenha alguma sugestão de melhoria ou correção de algum problema, fique à vontade para enviar uma mensagem para o seguinte email: **foliadereisdosferreiras@gmail.com**
 
-### Contribuir com códigp
+## Contribuir com código do site
 Caso queira contribuir diretamente com as modificações no código, basta apenas acessar o repositório [https://github.com/anthonylgf/folia-dos-ferreira](https://github.com/anthonylgf/folia-dos-ferreira), criar um fork, realizar as mudanças e enviar um PR.
 
 O projeto é feito utilizando o [Jekyll](https://jekyllrb.com) junto com o [Minimal-Mistake](https://mmistakes.github.io/minimal-mistakes/?ref=jekyll-themes.com).
