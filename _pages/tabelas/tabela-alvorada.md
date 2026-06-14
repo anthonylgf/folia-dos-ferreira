@@ -21,7 +21,7 @@ Da Virgem Nossa Senhora
 A bandeira dos Três Reis  
 Vai saindo lá pra fora  
 
-*(Quanda volta da mesa para lapinha)*
+*(Quando volta da mesa para lapinha)*
 
 Alvorada meu alferes  
 Com este mastro que vos está  
