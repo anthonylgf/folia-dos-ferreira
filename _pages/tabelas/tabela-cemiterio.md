@@ -49,5 +49,5 @@ E pedimos a todos mortos,
 Que Deus dê a Salvação.  
 Já saudamos o cemitério,  
 Todos mortos e a Santa Cruz.  
-É Deus mesmo quegit  nos Guarda,  
+É Deus mesmo que  nos Guarda,  
 Para sempre Amém Jesus.  
