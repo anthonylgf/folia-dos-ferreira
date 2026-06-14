@@ -19,5 +19,7 @@ Tabelas:
   - [Tabela para Promessas]({{ '/tabelas/tabela-promessas' | relative_url }})
   - [Tabela Lapinha]({{ '/tabelas/tabela-lapinha' | relative_url }})
   - [Tabela da Chegada do Giro]({{ '/tabelas/tabela-chegada-giro' | relative_url }})
+  - [Tabela de Saudação a Mesa]({{ '/tabelas/tabela-saudacao-mesa' | relative_url }})
+  - [Tabela de Alvorada]({{ '/tabelas/tabela-alvorada' | relative_url }})
   - [Tabela Morador (Santa Isabel)]({{ '/tabelas/tabela-morador-santa-isabel' | relative_url }})
   - [Tabela Morador]({{ '/tabelas/tabela-morador' | relative_url }})
