@@ -26,6 +26,7 @@
   <!-- Estilos da página inicial -->
   <link rel="stylesheet" href="{{ '/assets/css/folia-home.css' | relative_url }}">
 
+  {% include head/custom.html %}
   {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
 
   {% comment %} Google Analytics (gtag.js) — lê o tracking_id do _config.yml {% endcomment %}
