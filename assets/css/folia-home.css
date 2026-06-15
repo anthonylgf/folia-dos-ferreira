@@ -582,7 +582,7 @@ a { text-decoration: none; }
 
 /* --- Responsivo (tablet / celular) --- */
 @media (max-width: 820px) {
-  .fl-nav        { position: static !important; padding: 16px 20px !important; flex-wrap: wrap; gap: 8px 18px; background: #081138; }
+  .fl-nav        { position: relative !important; z-index: 3; padding: 16px 20px !important; flex-wrap: wrap; gap: 8px 18px; background: #081138; }
   .fl-nav-links  { gap: 16px !important; font-size: 14px !important; flex-wrap: wrap; }
 
   .fl-reismagos       { min-height: 0 !important; }
