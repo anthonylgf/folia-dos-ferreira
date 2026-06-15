@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'pt-BR' }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title | default: site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Open Graph (compartilhamento em redes) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ site.locale | replace: '-', '_' | default: 'pt_BR' }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% if site.og_image %}<meta property="og:image" content="{{ site.og_image | absolute_url }}">{% endif %}
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- Estilos da página inicial -->
+  <link rel="stylesheet" href="{{ '/assets/css/folia-home.css' | relative_url }}">
+
+  {% include head/custom.html %}
+  {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
+
+  {% comment %} Google Analytics (gtag.js) — lê o tracking_id do _config.yml {% endcomment %}
+  {% if site.analytics.google.tracking_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics.google.tracking_id }}'{% if site.analytics.google.anonymize_ip %}, { 'anonymize_ip': true }{% endif %});
+  </script>
+  {% endif %}
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
