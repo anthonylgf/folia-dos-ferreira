@@ -599,3 +599,21 @@ a { text-decoration: none; }
   .fl-footer      { padding: 40px 22px !important; justify-content: center; text-align: center; }
   .fl-footer-copy { text-align: center !important; }
 }
+
+/* Responsivo (pessoas que habilitam redução de movimento no dispositivo móvel) */
+@media (prefers-reduced-motion: reduce) {
+  .fl-star,
+  .fl-btn-gold,
+  .fl-btn-ghost,
+  .fl-card,
+  .fl-social {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .fl-btn-gold:hover,
+  .fl-card:hover,
+  .fl-social:hover {
+    transform: none !important;
+  }
+}
