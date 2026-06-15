@@ -98,6 +98,7 @@ a { text-decoration: none; }
 
 .fl-nav-links a { color: #e7ddc5; transition: color .2s ease; }
 .fl-nav-links a:hover,
+.fl-nav-links a:focus-visible,
 .fl-nav-links a.fl-nav-link--active { color: #f3d28a; }
 .fl-nav-links a.fl-nav-link--active { font-weight: 600; }
 
@@ -563,7 +564,7 @@ a { text-decoration: none; }
 
 .fl-footer-copy {
   font-family: 'EB Garamond', Georgia, serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #6f6a55;
   text-align: right;
   line-height: 1.6;
