@@ -1,56 +1,197 @@
 ---
-layout: splash
+layout: home_folia
 title: "Folia de Reis dos Ferreira"
 description: "Site oficial da Folia de Reis da Família Ferreira. Conheça a história, imperadores, cantos e tabelas do terno de Reis de São Joaquim, Januária, Minas Gerais."
 permalink: /
-hidden: true
-header:
-  overlay_color: "#0d1f6e"
-  overlay_image: /assets/images/logo-folia.png
-excerpt: >
-  Desde 1952 com muita devoção e tradição!
-feature_row:
-  - image_path: /assets/images/logo-instagram.png
-    alt: "instagram"
-    title: "Instagram"
-    excerpt: "Siga nossa página do Instagram e acompanhe as novidades"
-    url: "https://www.instagram.com/foliadosferreira/"
-    btn_class: "btn--primary"
-    btn_label: "Entrar na página"
-  - image_path: /assets/images/logo-youtube.png
-    alt: "youtube"
-    title: "Youtube"
-    excerpt: "Siga nosso canal do Youtube e veja os vídeos mais recentes"
-    url: "https://www.youtube.com/@FOLIADOSFERREIRA"
-    btn_class: "btn--primary"
-    btn_label: "Entrar no canal"
-  - image_path: /assets/images/logo-facebook.png
-    alt: "facebook"
-    title: "Facebook"
-    excerpt: "Siga a página da folia no Facebook e acompanhe as novidades"
-    url: "https://www.facebook.com/people/Folia-de-reis-dos-Ferreira-Januária-MG/100080397293890/?sk=reels_tab"
-    btn_class: "btn--primary"
-    btn_label: "Veja a página"
-feature_row_2:
-  - image_path: /assets/images/icone-timeline.png
-    alt: "linha do tempo"
-    title: "Linha do Tempo"
-    excerpt: "Histórico dos imperadores da folia durante os anos"
-    url: "/linha-do-tempo"
-    btn_class: "btn--primary"
-    btn_label: "Confira aqui"
-feature_row_3:
-  - image_path: /assets/images/icone-livro.png
-    alt: "tabelas"
-    title: "Tabelas"
-    excerpt: "Aprenda as tabelas dos reis da nossa folia"
-    url: "/lista-tabelas"
-    btn_class: "btn--primary"
-    btn_label: "Confira aqui"
 ---
 
-{% include feature_row %}
+<main>
 
-{% include feature_row id="feature_row_2" type="center" %}
+  <!-- ===================== REISMAGOS ===================== -->
+  <section class="fl-reismagos" style="background-image:url('{{ '/assets/images/logo-folia.png' | relative_url }}')">
+    <div class="fl-reismagos-overlay"></div>
+    <div class="fl-stars">
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+    </div>
 
-{% include feature_row id="feature_row_3" type="center" %}
+    <!-- Navegação -->
+    <nav class="fl-nav">
+      <div class="fl-nav-brand">
+        <span class="fl-nav-brand-star">&#10022;</span>
+        <span class="fl-nav-brand-name">Folia dos Ferreira</span>
+      </div>
+      <div class="fl-nav-links">
+        <a href="{{ '/' | relative_url }}" class="fl-nav-link--active">Início</a>
+        <a href="{{ '/linha-do-tempo' | relative_url }}">Linha do Tempo</a>
+        <a href="{{ '/lista-tabelas' | relative_url }}">Tabelas</a>
+        <a href="{{ '/como-contribuir' | relative_url }}">Contribuir</a>
+      </div>
+    </nav>
+
+    <!-- Conteúdo do herói -->
+    <div class="fl-reismagos-inner">
+      <div class="fl-reismagos-eyebrow">
+        <span class="fl-reismagos-eyebrow-line"></span>
+        <span class="fl-reismagos-eyebrow-text">São Joaquim &middot; Januária &middot; Minas Gerais</span>
+      </div>
+      <h1 class="fl-reismagos-title">Folia de Reis<br>dos Ferreira</h1>
+      <div class="fl-reismagos-divider">
+        <span class="fl-reismagos-divider-line"></span>
+        <span class="fl-reismagos-divider-star">&#10022;</span>
+        <span class="fl-reismagos-divider-line fl-reismagos-divider-line--faded"></span>
+      </div>
+      <p class="fl-reismagos-tagline">Desde 1952, seguindo a estrela que guiou os Três Reis Magos &mdash; com muita devoção e tradição.</p>
+      <div class="fl-reismagos-actions">
+        <a class="fl-btn-gold" href="{{ '/linha-do-tempo' | relative_url }}">Conheça a história</a>
+        <a class="fl-btn-ghost" href="{{ '/lista-tabelas' | relative_url }}">Aprenda as tabelas</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRÓXIMA FESTA ===================== -->
+  <section class="fl-section fl-section-festa">
+    <div class="fl-stars">
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+    </div>
+    <div class="fl-section-header">
+      <div class="fl-eyebrow">
+        <span class="fl-eyebrow-line fl-eyebrow-line--left"></span>
+        <span class="fl-eyebrow-text">Reúna-se conosco</span>
+        <span class="fl-eyebrow-line fl-eyebrow-line--right"></span>
+      </div>
+      <h2 class="fl-section-title">Próxima Festa - Janeiro de 2027</h2>
+    </div>
+    <div class="fl-festa-card">
+      <div class="fl-festa-row">
+        <span class="fl-festa-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c0-3.6 3.1-6 7-6s7 2.4 7 6"/></svg>
+        </span>
+        <div class="fl-festa-info">
+          <div class="fl-festa-label">Festeiro(s)</div>
+          <div class="fl-festa-value">Anthony<br>Thiago<br>José Marcos<br>Isaac<br>Wasley<br>Alex<br>Emanoel</div>
+        </div>
+      </div>
+      <div class="fl-festa-row">
+        <span class="fl-festa-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        </span>
+        <div class="fl-festa-info">
+          <div class="fl-festa-label">Local</div>
+          <div class="fl-festa-value">Fazenda dos Milagres(Casa do Jessé Ferreira)</div>
+          <div class="fl-festa-subtitle">Comunidade do Barreiro, São Joaquim, MG</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== A NOSSA DEVOÇÃO ===================== -->
+  <section class="fl-section fl-section-devocao">
+    <div class="fl-devocao-inner">
+      <div class="fl-eyebrow">
+        <span class="fl-eyebrow-line fl-eyebrow-line--left-gold"></span>
+        <span class="fl-eyebrow-text fl-eyebrow-text--dark">A nossa devoção</span>
+        <span class="fl-eyebrow-line fl-eyebrow-line--right-gold"></span>
+      </div>
+      <h2 class="fl-devocao-title">Uma tradição que atravessa gerações</h2>
+      <p class="fl-devocao-text">Somos o terno de Folia de Reis da Família Ferreira, no distrito de São Joaquim, em Januária &mdash; Minas Gerais. Há mais de setenta anos seguimos a estrela que guiou os Três Reis Magos, cantando, rezando e levando bênçãos de casa em casa. Cada jornada renova a fé que herdamos de nossos pais e avós.</p>
+    </div>
+  </section>
+
+  <!-- ===================== EXPLORE ===================== -->
+  <section class="fl-section fl-section-explore">
+    <div class="fl-stars">
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+      <span class="fl-star"></span>
+    </div>
+    <div class="fl-section-header">
+      <div class="fl-eyebrow">
+        <span class="fl-eyebrow-line fl-eyebrow-line--left"></span>
+        <span class="fl-eyebrow-text">Explore a folia</span>
+        <span class="fl-eyebrow-line fl-eyebrow-line--right"></span>
+      </div>
+      <h2 class="fl-section-title">O legado, canto a canto</h2>
+    </div>
+    <div class="fl-explore-grid">
+      <a class="fl-card" href="{{ '/linha-do-tempo' | relative_url }}">
+        <img class="fl-card-img" src="{{ '/assets/images/icone-timeline.png' | relative_url }}" alt="Linha do tempo">
+        <h3 class="fl-card-title">Linha do Tempo</h3>
+        <p class="fl-card-text">Histórico dos imperadores da folia ao longo dos anos.</p>
+        <span class="fl-card-cta">Confira aqui &rarr;</span>
+      </a>
+      <a class="fl-card" href="{{ '/lista-tabelas' | relative_url }}">
+        <img class="fl-card-img" src="{{ '/assets/images/icone-livro.png' | relative_url }}" alt="Tabelas">
+        <h3 class="fl-card-title">Tabelas</h3>
+        <p class="fl-card-text">Aprenda os cantos e as tabelas dos reis da nossa folia.</p>
+        <span class="fl-card-cta">Confira aqui &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== REDES SOCIAIS ===================== -->
+  <section class="fl-section fl-section-social">
+    <div class="fl-eyebrow">
+      <span class="fl-eyebrow-line fl-eyebrow-line--left"></span>
+      <span class="fl-eyebrow-text">Acompanhe a folia</span>
+      <span class="fl-eyebrow-line fl-eyebrow-line--right"></span>
+    </div>
+    <h2 class="fl-social-title">Siga nossas redes</h2>
+    <div class="fl-social-grid">
+      <a class="fl-social" href="https://www.instagram.com/foliadosferreira/" target="_blank" rel="noopener">
+        <span class="fl-social-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <span class="fl-social-name">Instagram</span>
+        <span class="fl-social-handle">@foliadosferreira</span>
+      </a>
+      <a class="fl-social" href="https://www.youtube.com/@FOLIADOSFERREIRA" target="_blank" rel="noopener">
+        <span class="fl-social-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6" width="19" height="12" rx="3.5"/><path d="M10 9.2l5 2.8-5 2.8z" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <span class="fl-social-name">YouTube</span>
+        <span class="fl-social-handle">@FOLIADOSFERREIRA</span>
+      </a>
+      <a class="fl-social" href="https://www.facebook.com/people/Folia-de-reis-dos-Ferreira-Januária-MG/100080397293890/" target="_blank" rel="noopener">
+        <span class="fl-social-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14.5 8.5V6.7c0-.8.3-1.2 1.2-1.2H17V2.6h-2.2c-2.3 0-3.4 1.4-3.4 3.5v2.4H9.3V12h2.1v9h3.1v-9h2.2l.4-3.5z" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <span class="fl-social-name">Facebook</span>
+        <span class="fl-social-handle">Folia dos Ferreira</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTRIBUIR ===================== -->
+  <section class="fl-section fl-section-contribuir">
+    <div class="fl-contribuir-inner">
+      <span class="fl-contribuir-star">&#10022;</span>
+      <h2 class="fl-contribuir-title">Ajude a manter viva a tradição</h2>
+      <p class="fl-contribuir-text">Conheça as formas de contribuir com a folia e com a preservação desta história para as próximas gerações.</p>
+      <a class="fl-btn-gold fl-btn-gold--lg" href="{{ '/como-contribuir' | relative_url }}">Como contribuir</a>
+    </div>
+  </section>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="fl-footer">
+    <div>
+      <div class="fl-footer-brand-row">
+        <span class="fl-footer-brand-star">&#10022;</span>
+        <span class="fl-footer-brand-name">Folia de Reis dos Ferreira</span>
+      </div>
+      <div class="fl-footer-tagline">Terno de Reis da Família Ferreira &middot; São Joaquim, Januária &mdash; MG &middot; Desde 1952</div>
+    </div>
+    <div class="fl-footer-copy">
+      &copy; {{ site.time | date: '%Y' }} Folia de Reis dos Ferreira<br>
+      Feito com devoção &middot; <a href="https://github.com/anthonylgf/folia-dos-ferreira" target="_blank" rel="noopener" class="fl-footer-link">código aberto</a>
+    </div>
+  </footer>
+
+</main>
