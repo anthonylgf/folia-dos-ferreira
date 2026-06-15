@@ -455,14 +455,16 @@ a { text-decoration: none; }
 }
 
 .fl-social-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
   max-width: 920px;
   margin: 0 auto;
 }
 
 .fl-social {
+  flex: 0 1 290px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -594,8 +596,8 @@ a { text-decoration: none; }
   .fl-section-social,
   .fl-section-contribuir { padding-left: 22px !important; padding-right: 22px !important; }
 
-  .fl-explore-grid,
-  .fl-social-grid { grid-template-columns: 1fr !important; }
+  .fl-explore-grid { grid-template-columns: 1fr !important; }
+  .fl-social { flex-basis: 100% !important; }
   .fl-festa-row  { padding: 26px 22px !important; gap: 18px !important; }
 
   .fl-footer      { padding: 40px 22px !important; justify-content: center; text-align: center; }
